@@ -617,7 +617,7 @@ class TogetherModel(BaseModel):
             "cost_per_output_token": 9e-07,
         },
         "mistralai/Mistral-7B-Instruct-v0.2": {
-            "max_context": 32768,
+            "max_context": 128_000,
             "cost_per_input_token": 2e-07,
             "cost_per_output_token": 2e-07,
         },
@@ -627,7 +627,7 @@ class TogetherModel(BaseModel):
             "cost_per_output_token": 2e-07,
         },
         "mistralai/Mixtral-8x7B-Instruct-v0.1": {
-            "max_context": 32768,
+            "max_context": 128_000,
             "cost_per_input_token": 6e-07,
             "cost_per_output_token": 6e-07,
         },
